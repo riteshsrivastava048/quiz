@@ -318,7 +318,10 @@ const submit = () => {
     }
     else{
         sol.style.backgroundColor = 'red' ;
-        sol.innerHTML = `<h1>Incorrect</h1>`
+        sol.innerHTML = `<div>
+        <h1>Incorrect</h1>
+        Correct Option is ${ans}
+        </div>`
         // console.log("Incorrect") ;
     }
 } 
