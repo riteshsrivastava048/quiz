@@ -320,12 +320,12 @@ const submit = () => {
         sol.style.backgroundColor = 'red' ;
         sol.innerHTML = `<div>
         <h1>Incorrect</h1>
-        Correct Option is ${ans}
+        <div class="bg-white text-black text-lg px-1 py-0.5 rounded-md mt-1">Correct option is ${ans.toUpperCase()}</div>
         </div>`
         // console.log("Incorrect") ;
     }
 } 
-
+  ``
 const restart = () => {
      location.reload() ;
 }
